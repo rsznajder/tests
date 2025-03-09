@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { AutofocusDirective } from './_directives/autofocus.directive';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet,AutofocusDirective],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
